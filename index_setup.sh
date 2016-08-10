@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 if [ "$SMASH_REF" = "" ] || [ ! -f $SMASH_REF ] ; then
     echo export SMASH_REF variable as fasta file path 1>&2
